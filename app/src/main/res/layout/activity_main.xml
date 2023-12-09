@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/cinema">
+
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:hint="Digite seu nome:"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUsername"
+        android:layout_marginTop="44dp"
+        android:hint="Digite uma senha:"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUsername"
+        android:layout_marginTop="124dp"
+        android:hint="Digite seu email:"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginTop="155dp"
+        android:text="Cadastrar"
+        />
+
+
+</RelativeLayout>
